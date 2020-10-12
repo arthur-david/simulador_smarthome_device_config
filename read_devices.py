@@ -9,6 +9,7 @@ devices = load_devices()
 
 list_devices = devices["devices"]
 
+# Formatar strings
 def string_format(palavras):
 
     if type(palavras) is list:
@@ -31,7 +32,7 @@ def string_format(palavras):
 
     return palavras
 
-
+# Função 1
 def list_device_names():
     device_names = list()
 
@@ -43,6 +44,7 @@ def list_device_names():
 
     print(device_names)
 
+# Função 2
 def list_device_sensors():
     device_sensors = dict()
 
@@ -56,7 +58,7 @@ def list_device_sensors():
 
     print(device_sensors)
 
-
+# Função 3
 def list_device_internal_state():
     device_internal_state = dict()
 
@@ -79,7 +81,7 @@ def list_device_internal_state():
 
     print(device_internal_state)
 
-
+# Função 4
 def list_device_actuators():
     device_actuators = dict()
 
@@ -102,7 +104,7 @@ def list_device_actuators():
 
     print(device_actuators)
 
-
+# Função 5
 def list_environment_devices():
     environment_devices = dict()
 
@@ -133,6 +135,8 @@ def list_environment_devices():
 
     print(environment_devices)
 
+
+# Principal
 while True:
     print("""
 
